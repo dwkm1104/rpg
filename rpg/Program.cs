@@ -2,8 +2,6 @@
 using System.Security.Cryptography.X509Certificates;
 using System.Text;
 
-
-
 namespace rpg
 {
     public class Startscene
@@ -64,32 +62,29 @@ namespace rpg
 
         }
 
-        public class Player
+
+    }
+
+
+    public class Player
+    {
+
+    }
+
+    public class Inventory
+    {
+
+    }
+
+
+    public class Program
+    {
+        static void Main(string[] args)
         {
-
+            Startscene startscene = new Startscene();
+            startscene.mainStartScene();
         }
-
-        public class Inventory
-        {
-
-        }
-
-
-        public class Program
-        {
-            static void Main(string[] args)
-            {
-
-            }
-
-            public class Player
-            {
-
-            }
-
-
-        }
-    }  
+    }
 }
 
 
