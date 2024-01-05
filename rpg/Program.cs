@@ -9,7 +9,7 @@ public class Startscene
 
 public class Player
 { 
-
+    
 }
 
 namespace rpg
